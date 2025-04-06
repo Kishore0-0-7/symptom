@@ -1,0 +1,25 @@
+Symptoms,Disease
+fever headache cough,Common Cold
+mild fever runny nose sore throat,Common Cold
+cough congestion sneezing,Common Cold
+high fever severe headache stiff neck,Meningitis
+stiff neck fever vomiting confusion,Meningitis
+headache fever stiff neck rash,Meningitis
+chest pain shortness of breath sweating,Heart Attack
+pain radiating to arm jaw neck,Heart Attack
+chest pressure nausea cold sweat,Heart Attack
+fatigue weight loss night sweats cough,Tuberculosis
+coughing blood chest pain fever,Tuberculosis
+night sweats fever persistent cough,Tuberculosis
+abdominal pain diarrhea nausea vomiting,Gastroenteritis
+stomach cramps watery diarrhea,Gastroenteritis
+nausea vomiting fever diarrhea,Gastroenteritis
+fever rash joint pain muscle pain,Dengue
+high fever headache pain behind eyes,Dengue
+muscle joint pain rash vomiting,Dengue
+frequent urination excessive thirst hunger,Diabetes
+increased thirst frequent urination fatigue,Diabetes
+tingling hands feet excessive thirst,Diabetes
+wheezing shortness of breath chest tightness,Asthma
+shortness of breath wheezing coughing,Asthma
+chest tightness difficulty breathing,Asthma

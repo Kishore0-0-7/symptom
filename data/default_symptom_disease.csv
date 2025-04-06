@@ -1,0 +1,46 @@
+Symptoms,Disease
+fever headache cough,Common Cold
+mild fever runny nose sore throat,Common Cold
+cough congestion sneezing,Common Cold
+headache sore throat mild fever,Common Cold
+fatigue cough runny nose,Common Cold
+high fever severe headache stiff neck light sensitivity,Meningitis
+stiff neck fever vomiting confusion,Meningitis
+headache fever stiff neck rash,Meningitis
+light sensitivity headache fever neck pain,Meningitis
+confusion fever stiff neck headache,Meningitis
+chest pain shortness of breath sweating,Heart Attack
+pain radiating to arm jaw neck,Heart Attack
+chest pressure nausea cold sweat,Heart Attack
+shortness of breath chest discomfort fatigue,Heart Attack
+chest tightness dizziness anxiety,Heart Attack
+fatigue weight loss night sweats cough,Tuberculosis
+coughing blood chest pain fever,Tuberculosis
+fatigue persistent cough weight loss,Tuberculosis
+night sweats fever persistent cough,Tuberculosis
+chest pain fatigue coughing blood,Tuberculosis
+abdominal pain diarrhea nausea vomiting,Gastroenteritis
+stomach cramps watery diarrhea,Gastroenteritis
+nausea vomiting fever diarrhea,Gastroenteritis
+abdominal pain fever vomiting,Gastroenteritis
+diarrhea dehydration stomach pain,Gastroenteritis
+high fever fatigue sore throat swollen lymph glands,Mononucleosis
+swollen lymph nodes fatigue fever,Mononucleosis
+extreme fatigue sore throat headache,Mononucleosis
+fever swollen spleen fatigue,Mononucleosis
+sore throat fever fatigue rash,Mononucleosis
+fever rash joint pain muscle pain,Dengue
+high fever headache pain behind eyes,Dengue
+muscle joint pain rash vomiting,Dengue
+fever rash fatigue bleeding gums,Dengue
+severe headache pain behind eyes fever,Dengue
+frequent urination excessive thirst hunger weight loss,Diabetes
+increased thirst frequent urination fatigue,Diabetes
+blurry vision slow healing wounds,Diabetes
+weight loss extreme hunger fatigue,Diabetes
+tingling hands feet excessive thirst,Diabetes
+wheezing shortness of breath chest tightness coughing,Asthma
+shortness of breath wheezing coughing,Asthma
+chest tightness difficulty breathing wheezing,Asthma
+coughing at night shortness of breath,Asthma
+exercise induced breathing difficulty,Asthma
