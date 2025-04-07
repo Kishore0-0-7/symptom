@@ -186,14 +186,14 @@ def train_dl_model(X_train, X_test, y_train, y_test, num_classes):
             X_test = X_test.toarray()
         
         # Create model
-        model = Sequential([
+    model = Sequential([
             Dense(32, activation='relu', input_shape=(X_train.shape[1],)),
-            Dropout(0.3),
+        Dropout(0.3),
             Dense(16, activation='relu'),
-            Dropout(0.3),
-            Dense(num_classes, activation='softmax')
-        ])
-        
+        Dropout(0.3),
+        Dense(num_classes, activation='softmax')
+    ])
+    
         # Compile model
         model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
         
@@ -211,26 +211,26 @@ def train_dl_model(X_train, X_test, y_train, y_test, num_classes):
         dl_pred = np.argmax(model.predict(X_test, verbose=0), axis=1)
         dl_acc = accuracy_score(y_test, dl_pred)
         print(f"[RESULT] Deep Learning model accuracy: {dl_acc:.2%}")
-        
-        # Plot training history
+    
+    # Plot training history
         if VISUALIZATION_AVAILABLE:
-            plt.figure(figsize=(12, 4))
-            plt.subplot(1, 2, 1)
+    plt.figure(figsize=(12, 4))
+    plt.subplot(1, 2, 1)
             plt.plot(history.history['accuracy'], label='Training')
             plt.plot(history.history['val_accuracy'], label='Validation')
-            plt.title('Model Accuracy')
+    plt.title('Model Accuracy')
             plt.xlabel('Epoch')
-            plt.ylabel('Accuracy')
+    plt.ylabel('Accuracy')
             plt.legend()
-            
-            plt.subplot(1, 2, 2)
+    
+    plt.subplot(1, 2, 2)
             plt.plot(history.history['loss'], label='Training')
             plt.plot(history.history['val_loss'], label='Validation')
-            plt.title('Model Loss')
+    plt.title('Model Loss')
             plt.xlabel('Epoch')
-            plt.ylabel('Loss')
+    plt.ylabel('Loss')
             plt.legend()
-            plt.tight_layout()
+    plt.tight_layout()
             plt.savefig('dl_training_history.png')
             plt.close()
             print("[INFO] DL training history saved as 'dl_training_history.png'")
@@ -259,7 +259,7 @@ def visualize_feature_importance(vectorizer, rf_model):
         plt.barh(range(len(indices)), feature_importance[indices], align='center')
         plt.yticks(range(len(indices)), [feature_names[i] for i in indices])
         plt.xlabel('Relative Importance')
-        plt.tight_layout()
+    plt.tight_layout()
         plt.savefig('feature_importance.png')
         plt.close()
         print("[INFO] Feature importance plot saved as 'feature_importance.png'")
@@ -332,7 +332,7 @@ def main():
         sns.barplot(x=disease_counts.values, y=disease_counts.index)
         plt.title('Distribution of Diseases in Dataset')
         plt.xlabel('Number of Samples')
-        plt.tight_layout()
+    plt.tight_layout()
         plt.savefig('disease_distribution.png')
         plt.close()
         print("[INFO] Disease distribution plot saved as 'disease_distribution.png'")
